@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Akalya Ravi | Portfolio</title>
+<meta name="description" content="Portfolio of Akalya R, an AI & Data Science student who builds practical web applications.">
+<meta property="og:title" content="Akalya R | Developer Portfolio">
+<meta property="og:description" content="Projects, skills and learning journey of Akalya R, B.Tech AI & Data Science student.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="loader" aria-hidden="true"><span>AKALYA RAVI</span></div>
+<div id="cursor" aria-hidden="true"></div>
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<header id="nav">
+  <a href="#home" class="logo">AKALYA RAVI</a>
+  <button id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu" aria-label="Main">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a><a href="#achievements">Achievements</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="blob b1"></div><div class="blob b2"></div>
+  <div class="wrap hero-grid">
+    <div>
+      <h1 class="hello">Hi, I'm <span class="grad">Akalya Ravi</span></h1>
+      <p class="tagline">I Build Ideas Into Digital Experiences.</p>
+      <p class="typing"><span id="typed"></span><i class="caret"></i></p>
+      <p class="lead">An enthusiastic Artificial Intelligence and Data Science student passionate about software development, web technologies, and building meaningful real-world applications.</p>
+      <div class="btns">
+        <a href="#projects" class="btn primary"sym>Explore My Work</a>
+        <a href="assets/resume/resume_dp.pdf" download class="btn ghost" data-resume>Download Resume</a>
+        <a href="#contact" class="btn ghost">Let's Connect</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/AkalyaRavi03" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+        <a href="https://www.linkedin.com/in/akalyaravi03/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+        <a href="https://leetcode.com/u/Akalya_03/" target="_blank" rel="noopener" aria-label="LeetCode">LeetCode</a>
+      </div>
+    </div>
+    <div class="photo-wrap"><div class="photo"><div class="photo-in"><span aria-hidden="true">AR</span><img src="assets/images/profile.png" alt="Portrait of Akalya R" onerror="this.remove()"></div></div></div>
+  </div>
+  <a href="#about" class="scroll" aria-label="Scroll down"><span></span></a>
+</section>
+
+<section id="about" class="wrap">
+  <h2 class="reveal">A Little About Me</h2>
+  <div class="two">
+    <div class="reveal">
+      <p>I'm an Artificial Intelligence and Data Science student with a strong interest in software development and building practical web applications. I enjoy learning new technologies, exploring different areas of development, and turning ideas into useful digital solutions. I'm currently strengthening my development skills and exploring DevOps.</p>
+      <a href="assets/resume/resume_dp.pdf" download class="btn primary" data-resume>Download Resume</a>
+    </div>
+    <div class="glass card reveal">
+      <h3>Strengths</h3>
+      <ul class="strengths"><li>Self-motivated</li><li>Adaptable learner</li><li>Problem-solving mindset</li><li>Positive attitude</li><li>Team collaboration</li><li>Consistent learning</li></ul>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="wrap"><h2 class="reveal">Technical Skills</h2><div id="skillGrid" class="grid3"></div></section>
+
+<section id="projects" class="wrap"><h2 class="reveal">Featured Projects</h2>
+
+  <div id="projectGrid" class="grid3"></div></section>
+
+<section id="education" class="wrap"><h2 class="reveal">Education</h2>
+  <div class="timeline"><div class="t-item reveal"><i></i><div class="glass card"><h3>B.Tech Artificial Intelligence and Data Science</h3><p>VSB College of Engineering Technical Campus, Coimbatore</p><small>2024 – 2028</small><p>CGPA: 8.75 (upto 4th semester)</p></div></div></div>
+   <div class="timeline"><div class="t-item reveal"><i></i><div class="glass card"><h3>Higher Secondary Education</h3><p>GHSS Mannur Ramanathapuram</p><small>2022-2024</small><p>Percentage: 87.6</p></div></div></div>
+    <div class="timeline"><div class="t-item reveal"><i></i><div class="glass card"><h3>Secondary Education</h3><p>GHSS Mannur Ramanathapuram</p><small>2021-2022</small><p>Percentage: 85.4</p></div></div></div></section>
+   <section id="certificates" class="wrap"><h2 class="reveal">Certificates</h2>
+  <div id="certGrid" class="grid3"></div></section>
+
+<section id="achievements" class="wrap"><h2 class="reveal">Achievements &amp; Hackathons</h2>
+  <div id="achList" class="grid3"></div></section>
+
+<section id="profiles" class="wrap"><h2 class="reveal">Coding Profiles</h2>
+  <div class="grid3">
+    <a class="glass card hov reveal" href="https://github.com/AkalyaRavi03" target="_blank" rel="noopener"><h3>GitHub</h3><p>My repositories and project code.</p><span class="link">Visit Profile</span></a>
+    <a class="glass card hov reveal" href="https://leetcode.com/u/Akalya_03/" target="_blank" rel="noopener"><h3>LeetCode</h3><p>Practice problems and problem-solving progress.</p><span class="link">Visit Profile</span></a>
+    <a class="glass card hov reveal" href="https://www.linkedin.com/in/akalyaravi03/" target="_blank" rel="noopener"><h3>LinkedIn</h3><p>My professional profile and network.</p><span class="link">Visit Profile</span></a>
+  </div></section>
+
+<section id="journey" class="wrap"><h2 class="reveal">My Learning Journey</h2>
+  <p class="sub reveal">From building interfaces to exploring modern software development.</p>
+  <div id="roadmap" class="road"></div></section>
+
+<section id="contact" class="wrap"><h2 class="reveal">Let's Build Something Together</h2>
+  <div class="two">
+    <div class="reveal"><p>Have an idea, an opportunity or a question? Send a message and I'll get back to you.</p>
+      <p><a class="link" id="emailLink" href="mailto:agal33826@gmail.com"> agal33826@gmail.com</a></p>
+      <p><a class="link" href="https://www.linkedin.com/in/akalyaravi03/" target="_blank" rel="noopener">LinkedIn</a> · <a class="link" href="https://github.com/AkalyaRavi03" target="_blank" rel="noopener">GitHub</a></p></div>
+    <form id="form" class="glass card reveal" action="https://formsubmit.co/agal33826@gmail.com" method="POST">
+      <label>Name<input name="name" required autocomplete="name"><em></em></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"><em></em></label>
+      <label>Subject<input name="subject" required><em></em></label>
+      <label>Message<textarea name="message" rows="5" required></textarea><em></em></label>
+      <button class="btn primary" type="submit">Send Message</button>
+      <p id="formStatus" role="status"></p>
+    </form>
+  </div></section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><b class="logo">AKALYA RAVI</b><p>Building, Learning, and Growing Through Technology.</p></div>
+    <nav aria-label="Footer"><a href="#about">About</a><a href="#projects">Projects</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="Profiles"><a href="https://github.com/AkalyaRavi03" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/akalyaravi03/" target="_blank" rel="noopener">LinkedIn</a><a href="https://leetcode.com/u/Akalya_03/" target="_blank" rel="noopener">LeetCode</a><a id="footEmail" href="#">Email</a></nav>
+  </div>
+  <p class="copy">© <span id="year"></span> Akalya Ravi. All rights reserved.</p>
+</footer>
+
+<button id="toTop" aria-label="Back to top">↑</button>
+<div id="modal" role="dialog" aria-modal="true" aria-label="Certificate viewer" hidden><div class="glass card"><button id="closeModal" aria-label="Close">✕</button><div id="modalBody"></div></div></div>
+<div id="toast" role="status"></div>
+<script src="js/script.js"></script>
+</body>
+</html>
